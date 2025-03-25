@@ -45,3 +45,188 @@
 .e-input-group:not(.e-float-icon-left), .e-input-group.e-success:not(.e-float-icon-left), .e-input-group.e-warning:not(.e-float-icon-left), .e-input-group.e-error:not(.e-float-icon-left), .e-input-group.e-control-wrapper:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-success:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-warning:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left){
   border: none;
 }
+
+.dark-theme-calendar.e-schedule {
+  background-color: #33373E;
+}
+
+.dark-theme-calendar.e-schedule .e-schedule-toolbar,
+.dark-theme-calendar.e-schedule .e-vertical-view .e-header-cells,
+.dark-theme-calendar.e-schedule .e-timeline-view .e-header-cells,
+.dark-theme-calendar.e-schedule .e-month-view .e-work-cells,
+.dark-theme-calendar.e-schedule .e-month-view .e-date-header-wrap,
+.dark-theme-calendar.e-schedule .e-content-wrap,
+.dark-theme-calendar.e-schedule .e-timeline-view .e-work-cells,
+.dark-theme-calendar.e-schedule .e-month-view .e-work-days,
+.dark-theme-calendar.e-schedule .e-month-view .e-content-wrap,
+.dark-theme-calendar.e-schedule .e-month-view .e-date-header-wrap table,
+.dark-theme-calendar.e-schedule .e-month-view .e-content-wrap table {
+  background-color: #33373E !important;
+}
+
+.dark-theme-calendar .e-schedule-toolbar .e-toolbar-items,
+.dark-theme-calendar .e-schedule-toolbar .e-toolbar-items .e-toolbar-item,
+.dark-theme-calendar .e-schedule-toolbar .e-toolbar-items .e-toolbar-item.e-active {
+  background-color: #33373E !important;
+}
+
+.dark-theme-calendar .e-input,
+.dark-theme-calendar .e-input-group,
+.dark-theme-calendar .e-input-group.e-control-wrapper {
+  background-color: #33373E !important;
+}
+
+.dark-theme-calendar.e-schedule .e-schedule-toolbar .e-tbar-btn .e-tbar-btn-text,
+.dark-theme-calendar.e-schedule .e-schedule-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn-text {
+  color: #fff;
+}
+
+.dark-theme-calendar.e-schedule .e-schedule-toolbar .e-toolbar-items,
+.dark-theme-calendar.e-schedule .e-vertical-view .e-day-wrapper .e-appointment,
+.dark-theme-calendar.e-schedule .e-month-view .e-appointment {
+  background-color: #33373E;
+}
+
+.dark-theme-calendar.e-schedule .e-month-view .e-date-header-wrap table td,
+.dark-theme-calendar.e-schedule .e-month-view .e-content-wrap table td {
+  border-color: #4b5563;
+}
+
+.dark-theme-calendar.e-schedule .e-schedule-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn-text,
+.dark-theme-calendar.e-schedule .e-schedule-toolbar .e-toolbar-items .e-toolbar-item .e-icons {
+  color: #fff;
+}
+
+.dark-theme-calendar .e-toolbar-item.e-active {
+  background-color: #1A1C1E !important;
+}
+
+.dark-theme-calendar .e-schedule-toolbar .e-toolbar-items .e-toolbar-item:hover {
+  background-color: #4b5563 !important;
+}
+
+.dark-theme-calendar.e-schedule .e-month-view .e-current-date {
+  background-color: #4b5563 !important;
+}
+
+.dark-theme-calendar.e-schedule .e-month-view .e-date-header,
+.dark-theme-calendar.e-schedule .e-month-agenda-view .e-date-header {
+  background-color: #1A1C1E;
+  color: #fff;
+}
+
+.dark-theme-calendar.e-schedule .e-month-view .e-header-cells,
+.dark-theme-calendar.e-schedule .e-vertical-view .e-header-cells,
+.dark-theme-calendar.e-schedule .e-timeline-view .e-header-cells {
+  background-color: #1A1C1E !important;
+  color: #ffffff !important;
+  border-color: #4b5563 !important;
+  font-weight: 500;
+}
+
+.dark-theme-calendar.e-schedule .e-month-view .e-date-header-wrap {
+  background-color: #1A1C1E !important;
+}
+
+.dark-theme-calendar.e-schedule .e-month-view .e-header-cells {
+  border-bottom: 1px solid #4b5563 !important;
+}
+
+.dark-theme-calendar .e-toolbar-popup {
+  background-color: #1A1C1E !important;
+  border: 1px solid #4b5563 !important;
+  padding: 8px !important;
+  border-radius: 8px !important;
+}
+
+.dark-theme-calendar .e-toolbar-popup .e-toolbar-item {
+  margin: 4px !important;
+  border-radius: 6px !important;
+  background-color: #1A1C1E !important;
+}
+
+.dark-theme-calendar .e-toolbar-popup .e-toolbar-item .e-tbar-btn {
+  color: #ffffff !important;
+  border-radius: 6px !important;
+  padding: 6px 12px !important;
+  width: 100% !important;
+}
+
+.dark-theme-calendar .e-toolbar-popup .e-toolbar-item:hover {
+  background-color: #4b5563 !important;
+}
+
+.dark-theme-calendar .e-toolbar-popup .e-toolbar-item .e-tbar-btn-text {
+  color: #ffffff !important;
+}
+
+.dark-theme-calendar .e-toolbar-popup .e-toolbar-item.e-active {
+  background-color: #4b5563 !important;
+}
+
+.dark-theme-calendar .e-toolbar-items .e-toolbar-item {
+  background-color: #1A1C1E !important;
+  border-radius: 8px !important;
+  margin: 0 4px !important;
+  min-width: 100px !important;
+}
+
+.dark-theme-calendar .e-toolbar-items .e-toolbar-item .e-tbar-btn {
+  background-color: #1A1C1E !important;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+  padding: 8px 16px !important;
+  height: 40px !important;
+}
+
+.dark-theme-calendar .e-schedule-toolbar {
+  background-color: #1A1C1E !important;
+  border-color: #4b5563 !important;
+  padding: 12px !important;
+}
+
+.dark-theme-calendar .e-toolbar-popup .e-toolbar-item {
+  margin: 6px !important;
+  border-radius: 8px !important;
+  min-width: 120px !important;
+}
+
+.dark-theme-calendar .e-toolbar-popup .e-toolbar-item .e-tbar-btn {
+  padding: 8px 16px !important;
+  height: 40px !important;
+}
+
+.dark-theme-calendar .e-toolbar-items .e-toolbar-item:hover {
+  background-color: #4b5563 !important;
+}
+
+.dark-theme-calendar .e-toolbar-items .e-toolbar-item.e-active {
+  background-color: #4b5563 !important;
+}
+
+.dark-theme-calendar .e-schedule-toolbar {
+  background-color: #1A1C1E !important;
+  border-color: #4b5563 !important;
+  padding: 8px !important;
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+.dark-theme-calendar .e-schedule-toolbar .e-toolbar-items .e-today,
+.modern-calendar .e-schedule-toolbar .e-toolbar-items .e-today {
+  display: none !important;
+}
+
+.dark-date-picker.e-control-wrapper .e-float-text {
+  color: #fff !important;
+}
+
+.no-hover-effect .e-toolbar .e-toolbar-items .e-toolbar-item:hover {
+  background: none !important;
+  border: none !important;
+}
+
+.no-hover-effect .e-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn:hover {
+  background: none !important;
+  border: none !important;
+}
